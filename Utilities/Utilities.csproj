@@ -6,4 +6,10 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Reference Include="Microsoft.Extensions.Localization.Abstractions">
+        <HintPath>..\..\..\.nuget\packages\microsoft.extensions.localization.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.Localization.Abstractions.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
 </Project>
