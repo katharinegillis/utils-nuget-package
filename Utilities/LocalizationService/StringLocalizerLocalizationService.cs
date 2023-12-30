@@ -3,7 +3,7 @@ using Microsoft.Extensions.Localization;
 namespace Utilities.LocalizationService;
 
 // ReSharper disable once SuggestBaseTypeForParameterInConstructor
-public class StringLocalizerLocalizationService<T>(IStringLocalizer<T> localizer) : ILocalizationService
+public class StringLocalizerLocalizationService<T>(IStringLocalizer<T> localizer) : ILocalizationService<T> where T : class
 {
     public string Translate(string key, params object[] parameters)
     {
