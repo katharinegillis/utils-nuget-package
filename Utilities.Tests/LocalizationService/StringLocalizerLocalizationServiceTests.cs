@@ -13,7 +13,7 @@ public class StringLocalizerLocalizationServiceTests
         
         var service = new StringLocalizerLocalizationService<StringLocalizerLocalizationServiceTests>(localizer);
         
-        Assert.That(service, Is.InstanceOf<ILocalizationService>());
+        Assert.That(service, Is.InstanceOf<ILocalizationService<StringLocalizerLocalizationServiceTests>>());
     }
 
     [Test]

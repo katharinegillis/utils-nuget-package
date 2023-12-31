@@ -4,6 +4,10 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <PackageId>katiecordescodes-utilities</PackageId>
+        <Title>katiecordescodes.com Utilities</Title>
+        <Authors>Katie Cordes</Authors>
+        <RepositoryUrl>https://github.com/katharinegillis/utils-nuget-package</RepositoryUrl>
     </PropertyGroup>
 
     <ItemGroup>
@@ -14,6 +18,10 @@
 
     <ItemGroup>
       <PackageReference Include="Microsoft.Extensions.Localization" Version="8.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="obj\" />
     </ItemGroup>
 
 </Project>
