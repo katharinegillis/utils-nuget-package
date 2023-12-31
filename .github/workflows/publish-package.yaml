@@ -1,4 +1,4 @@
-name: Unit Tests
+name: Publish NuGet Packages
 
 on:
   workflow_dispatch:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   publish-package:
-    name: Publish NuGet Package
+    name: Publish NuGet Packages
     runs-on: ubuntu-latest
     environment: Production
     steps:
